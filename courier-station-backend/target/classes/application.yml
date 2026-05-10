@@ -1,0 +1,20 @@
+server:
+  port: 10025
+
+spring:
+  datasource:
+    url: jdbc:mysql://49.235.161.106:10011/db5
+    username: wl
+    password: Wl1733811
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 49.235.161.106
+    port: 10012
+    password:
+
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto
+  configuration:
+    map-underscore-to-camel-case: true
